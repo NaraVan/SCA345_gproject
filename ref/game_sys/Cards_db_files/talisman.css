@@ -1,0 +1,1261 @@
+/* BODY */
+body {
+	font-family: Arial, Sans-Serif;
+	background-color: #f3f1e9;
+	color: #4c50a9;
+}
+
+/* LINKS */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* MENU */
+div.menu {
+	background-color: #efe8c7;
+	width: 100%;
+	padding: 4px;
+}
+
+div.menu span {
+	background-color: #f4a817;
+	padding: 4px;
+}
+
+/* DOWNLOAD */
+div.download {
+	font-size: larger;
+}
+
+div.download a {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* TABLES */
+table {
+	width: 100%;
+	border: 4px double #f4a817;
+	background-color: #efe8c7;
+}
+
+th, td {
+	padding: 0.1em .3em;
+}
+
+th {
+	background-color: #f4a817;
+}
+
+td {
+	background-color: #fff8d7;
+}
+td.numeric {
+	text-align: right;
+}
+
+a.rules, a.board {
+	font-weight: bold;
+}
+
+/* CHARACTER STATS */
+td.stat {
+	text-align: center;
+}
+
+div.strength, div.gold, div.lives, div.craft, div.fate {
+	padding-top: 0.3em;
+	width: 2em;
+	height: 1.7em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+div.strength {
+	background-color: #ff0000;
+}
+
+div.craft {
+	background-color: #66ccff;
+}
+
+div.gold {
+	background-color: #ffcc00;
+}
+
+div.lives {
+	background-color: #009933;
+}
+
+div.fate {
+	background-color: #9900cc;
+	color: #ffffff;
+}
+
+/* CHARACTER ALIGNMENT */
+div.neutral, div.good, div.evil, div.god {
+	padding-top: 0.3em;
+	width: 5em;
+	height: 1.7em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+}
+div.neutral {
+	background-color: #c0c0c0;
+}
+
+div.evil {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+div.good {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+div.god {
+	background-color: #e0e0e0;
+	color: #000000;
+}
+
+/* Edition */
+td.edition {
+	width: 2em;
+}
+
+td.edition span {
+	font-size: small;
+	padding: 2px 1px 2px 1px;
+	font-weight: bold;
+}
+
+span.second {
+	background-color: red;
+	color: white;
+}
+
+span.third {
+	background-color: yellow;
+}
+
+span.fourth {
+	background-color: blue;
+	color: white;
+}
+
+img {
+	border: 0px;
+}
+
+img.smallcard {
+	width: 85px;
+	height: 50px;
+}
+
+img.medcard {
+	width: 127px;
+	height: 75px;
+}
+
+td.deck {
+	text-align: center;
+}
+
+/* CARD DECK */
+th.deck div, td.deck div {
+	width: 8.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	height: 1.4em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	border: 4px double #000000;
+	font-size: smaller;
+}
+
+div.ability {
+	background-color: #ffff00;
+}
+
+div.ability {
+	color: #000000
+}
+
+div.adventure {
+	background-color: #30774f;
+}
+div.adventure {
+	color: #efb03f;
+}
+
+div.airship {
+	background-color: #00ffff;
+}
+div.airship {
+	color: #ff0080;
+}
+
+div.angelic_spell {
+	background-color: #7e86b7;
+}
+div.angelic_spell {
+	color: #ffffff;
+}
+
+div.artifact_powers {
+	background-color: #000000;
+}
+
+div.artifact_powers {
+	color: #e3ac37;
+}
+
+div.atlantida {
+	background-color: #94bacf;
+}
+
+div.atlantida {
+	color: #1c3b67;
+}
+
+div.black_knights_camp {
+	background-color: #00ff00;
+}
+div.black_knights_camp {
+	color: #000000;
+}
+
+div.black_tower {
+	background-color: #000000;
+}
+div.black_tower {
+	color: #e3730d;
+}
+
+div.blacks_tavern_event {
+	background-color: #f1d549;
+}
+div.blacks_tavern_event {
+	color: #fd1111;
+}
+
+div.blacks_tavern_patron {
+	background-color: #f1d549;
+}
+div.blacks_tavern_patron {
+	color: #5b2d0b;
+}
+
+div.blessing_1 {
+	background-color: #ffff00;
+}
+div.blessing_1 {
+	color: #ff0000;
+}
+
+div.blessing_2 {
+	background-color: #a49dc7;
+}
+div.blessing_2 {
+	color: #ffffff;
+}
+
+div.blessing_3 {
+	background-color: #000000;
+}
+div.blessing_3 {
+	color: #ffffff;
+}
+
+div.bloodbowl {
+	background-color: #0ba952;
+}
+div.bloodbowl {
+	color: #dfebf9;
+}
+
+div.burrows {
+	background-color: #845d08;
+}
+div.burrows {
+	color: #ffffff;
+}
+
+div.captains_deck {
+	background-color: #a7702f;
+}
+div.captains_deck {
+	color: #572203;
+}
+
+div.castle_1 {
+	background-color: #aeb3ac;
+}
+div.castle_1 {
+	color: #ffffff;
+}
+
+div.castle_2 {
+	background-color: #8080ff;
+}
+div.castle_2 {
+	color: #000000;
+}
+
+div.catacombs {
+	background-color: #ffffff;
+}
+div.catacombs {
+	color: #000000;
+}
+
+div.cave {
+	background-color: #000000;
+}
+div.cave {
+	color: #ffffff;
+}
+
+div.cenobite {
+	background-color: #f4e580;
+}
+div.cenobite {
+	color: #d42603;
+}
+
+div.chaos_gift_-_khorne {
+	background-color: #dbdb9d;
+}
+div.chaos_gift_-_khorne {
+	color: #000000;
+}
+
+div.chaos_gift_-_nurgle {
+	background-color: #dbdb9d;
+}
+div.chaos_gift_-_nurgle {
+	color: #000000;
+}
+
+div.chaos_gift_-_slaanesh {
+	background-color: #dbdb9d;
+}
+div.chaos_gift_-_slaanesh {
+	color: #000000;
+}
+
+div.chaos_gift_-_tzeentch {
+	background-color: #dbdb9d;
+}
+div.chaos_gift_-_tzeentch {
+	color: #000000;
+}
+
+div.citadel {
+	background-color: #5375b4;
+}
+div.citadel {
+	color: #000000;
+}
+
+div.citizenship {
+	background-color: #dfbc20;
+}
+div.citizenship {
+	color: #a61830;
+}
+
+div.city {
+	background-color: #8f2881;
+}
+div.city {
+	color: #ffff7c;
+}
+
+div.concubine {
+	background-color: #e8699c;
+}
+div.concubine {
+	color: #240f86;
+}
+
+div.contract {
+	background-color: #d3c7ad;
+}
+div.contract {
+	color: #000000;
+}
+
+div.cursed_swamp {
+	background-color: #844242;
+}
+div.cursed_swamp {
+	color: #efb539;
+}
+
+div.cursed_swamp_treasure {
+	background-color: #844242;
+}
+div.cursed_swamp_treasure {
+	color: #ffff07;
+}
+
+div.curse_1 {
+	background-color: #000000;
+}
+div.curse_1 {
+	color: #ff0000;
+}
+
+div.curse_2 {
+	background-color: #000000;
+}
+div.curse_2 {
+	color: #ffffff;
+}
+
+div.curse_3 {
+	background-color: #ffffff;
+}
+div.curse_3 {
+	color: #000000;
+}
+
+div.curses {
+	background-color: #81007f;
+}
+div.curses {
+	color: #ff800f;
+}
+
+div.date {
+	background-color: #f97d69;
+}
+div.date {
+	color: #ffffff;
+}
+
+div.deeper_dungeon {
+	background-color: #525252;
+}
+div.deeper_dungeon {
+	color: #ffffff;
+}
+
+div.denizen {
+	background-color: #000000;
+}
+div.denizen {
+	color: #ffffff;
+}
+
+div.desert {
+	background-color: #8f5d08;
+}
+div.desert {
+	color: #ffff81;
+}
+
+div.device {
+	background-color: #000000;
+}
+div.device {
+	color: #f4d508;
+}
+
+div.diablo {
+	background-color: #000000;
+}
+div.diablo {
+	color: #f1bc3a;
+}
+
+
+div.dragon {
+	background-color: #028e9a;
+}
+div.dragon {
+	color: #ffffff;
+}
+
+div.dragon_cultist {
+	background-color: #8f2881;
+}
+div.dragon_cultist {
+	color: #000000;
+}
+
+div.dragon_land {
+	background-color: #808080;
+}
+div.dragon_land {
+	color: #ffff03;
+}
+
+div.dragons_lair {
+	background-color: #4e49a7;
+}
+div.dragons_lair {
+	color: #dce25c;
+}
+
+div.draw_one_card {
+	background-color: #ffffff;
+}
+div.draw_one_card {
+	color: #0773b4;
+}
+
+div.dreams {
+	background-color: #8f80a7;
+}
+div.dreams {
+	color: #ffff80;
+}
+
+div.dungeon {
+	background-color: #b4d6ff;
+}
+div.dungeon {
+	color: #fffe06;
+}
+
+div.edge_of_town {
+	background-color: #000000;
+}
+div.edge_of_town {
+	color: #edb23c;
+}
+
+div.estate {
+	background-color: #9ccbe9;
+}
+div.estate {
+	color: #000000;
+}
+
+div.excalibur {
+	background-color: #000000;
+}
+div.excalibur {
+	color: #ffff00;
+}
+
+div.extra {
+	background-color: #000000;
+}
+div.extra {
+	color: #ffffff;
+}
+
+div.faeries {
+	background-color: #007200;
+}
+div.faeries {
+	color: #84ff83;
+}
+
+div.follower {
+	background-color: #f7cb84;
+}
+div.follower {
+	color: #000000;
+}
+
+div.forest {
+	background-color: #d2bbad;
+}
+div.forest {
+	color: #b41b0d;
+}
+
+div.gemstone {
+	background-color: #808080;
+}
+div.gemstone {
+	color: #000000;
+}
+
+div.gift_of_the_gods {
+	background-color: #ebe9da;
+}
+div.gift_of_the_gods {
+	color: #cdb811;
+}
+
+div.gothic_horrors {
+	background-color: #800040;
+}
+div.gothic_horrors {
+	color: #ffffff;
+}
+
+div.graveyard {
+	background-color: #000000;
+}
+div.graveyard {
+	color: #ffffff;
+}
+
+div.grotto_guardian {
+	background-color: #0000a0;
+}
+div.grotto_guardian {
+	color: #ffff00;
+}
+
+div.grotto_treasure {
+	background-color: #0000a0;
+}
+div.grotto_treasure {
+	color: #ffff00;
+}
+
+div.harem {
+	background-color: #e8699c;
+}
+div.harem {
+	color: #240f86;
+}
+
+div.herculean_task {
+	background-color: #808000;
+}
+div.herculean_task {
+	color: #ffff00;
+}
+
+div.hell {
+	background-color: #000000;
+}
+div.hell {
+	color: #e0aa02;
+}
+
+div.hireling {
+	background-color: #fff200;
+}
+div.hireling {
+	color: #00aeef;
+}
+
+div.holy_grail {
+	background-color: #719fd1;
+}
+div.holy_grail {
+	color: #ffff00;
+}
+
+div.ice_realm {
+	background-color: #edf1f0;
+}
+div.ice_realm {
+	color: #0f92ed;
+}
+
+div.inner_region {
+	background-color: #2d2d2d;
+}
+div.inner_region {
+	color: #ffffff;
+}
+
+div.insanity {
+	background-color: #ffffff;
+}
+div.insanity {
+	color: #bb322c;
+}
+
+div.iron_fortress {
+	background-color: #bfc4d4;
+}
+div.iron_fortress {
+	color: #00ffff;
+}
+
+div.island {
+	background-color: #0320a8;
+}
+div.island {
+	color: #edee31;
+}
+
+div.knight {
+	background-color: #bfbfbf;
+}
+div.knight {
+	color: #ff0900;
+}
+
+div.knights {
+	background-color: #8f2b69;
+}
+div.knights {
+	color: #cad028;
+}
+
+div.knights_magic_object {
+	background-color: #f59211;
+}
+div.knights_magic_object {
+	color: #135e1b;
+}
+
+div.land_of_eternal_darkness {
+	background-color: #004080;
+}
+div.land_of_eternal_darkness {
+	color: #008040;
+}
+
+div.loan {
+	background-color: #fe7f0a;
+}
+div.loan {
+	color: #ffffff;
+}
+
+div.lord_of_the_rings {
+	background-color: #004f00;
+}
+div.lord_of_the_rings {
+	color: #f4dc0a;
+}
+
+div.magic_prize {
+	background-color: #00fe81;
+}
+div.magic_prize {
+	color: #767efa;
+}
+
+div.mental_ability {
+	background-color: #ffffff;
+}
+div.mental_ability {
+	color: #000000;
+}
+
+div.miracle {
+	background-color: #ffffff;
+}
+div.miracle {
+	color: #000000;
+}
+
+div.mission {
+	background-color: #000000;
+}
+div.mission {
+	color: #f4d508;
+}
+
+div.mortal_fighter {
+	background-color: #00fe81;
+}
+div.mortal_fighter {
+	color: #767efa;
+}
+
+div.mountain_pass {
+	background-color: #a1a050;
+}
+div.mountain_pass {
+	color: #0d5e01;
+}
+
+div.mystic_brew {
+	background-color: #f5b539;
+}
+div.mystic_brew {
+	color: #910d58;
+}
+
+div.namsi-lat {
+	background-color: #ffffff;
+}
+div.namsi-lat {
+	color: #000000;
+}
+
+div.naval_purchase {
+	background-color: #f59211;
+}
+div.naval_purchase {
+	color: #135e1b;
+}
+
+div.netherworld {
+	background-color: #ffffff;
+}
+div.netherworld {
+	color: #000000;
+}
+
+div.newt {
+	background-color: #aaa094;
+}
+div.newt {
+	color: #df6242;
+}
+
+div.nobleman {
+	background-color: #f9e43d;
+}
+div.nobleman {
+	color: #f1380c;
+}
+
+div.opponent {
+	background-color: #356589;
+}
+div.opponent {
+	color: #ffffff;
+}
+
+div.paranoia {
+	background-color: #000000;
+}
+div.paranoia {
+	color: #f4d508;
+}
+
+div.paranoia_purchase {
+	background-color: #f59211;
+}
+div.paranoia_purchase {
+	color: #135e1b;
+}
+
+div.physical_ability {
+	background-color: #ffffff;
+}
+div.physical_ability {
+	color: #000000;
+}
+
+div.pokemon {
+	background-color: #ffffff;
+}
+div.pokemon {
+	color: #ffd001;
+}
+
+div.potion {
+	background-color: #00ff00;
+}
+div.potion {
+	color: #008300;
+}
+
+div.purchase {
+	background-color: #f59211;
+}
+div.purchase {
+	color: #135e1b;
+}
+
+div.pyramid {
+	background-color: #ffffff;
+}
+div.pyramid {
+	color: #75bf82;
+}
+
+div.quest {
+	background-color: #694732;
+}
+div.quest {
+	color: #dfb896;
+}
+
+div.quest_reward {
+	background-color: #aeb3ac;
+}
+div.quest_reward {
+	color: #ffffff;
+}
+
+div.quests {
+	background-color: #0000fe;
+}
+div.quests {
+	color: #f1f934;
+}
+
+div.realm_of_chaos {
+	background-color: #e1e2a8;
+}
+div.realm_of_chaos {
+	color: #000000;
+}
+
+div.realm_of_cthulhu {
+	background-color: #ffffff;
+}
+div.realm_of_cthulhu {
+	color: #017f40;
+}
+
+div.realm_of_fire {
+	background-color: #ffffff;
+}
+div.realm_of_fire {
+	color: #ff0000;
+}
+
+div.renegade_legion {
+	background-color: #c0c0c0;
+}
+div.renegade_legion {
+	color: #800080;
+}
+
+div.rome {
+	background-color: #a61832;
+}
+div.rome {
+	color: #dbbe22;
+}
+
+div.rune_items {
+	background-color: #b59d55;
+}
+div.rune_items {
+	color: #ad2701;
+}
+
+div.runes {
+	background-color: #b59d55;
+}
+div.runes {
+	color: #ad2701;
+}
+
+div.samurai {
+	background-color: #0086c6;
+}
+div.samurai {
+	color: #ff0000;
+}
+
+div.science {
+	background-color: #0000ff;
+}
+div.science {
+	color: #ffff00;
+}
+
+div.scroll {
+	background-color: #f6de86;
+}
+div.scroll {
+	color: #867b81;
+}
+
+div.sea_realm {
+	background-color: #77ebcc;
+}
+div.sea_realm {
+	color: #b84e1e;
+}
+
+div.secret_passage {
+	background-color: #840000;
+}
+div.secret_passage {
+	color: #ffff00;
+}
+
+div.secret_society {
+	background-color: #000000;
+}
+div.secret_society {
+	color: #f4d508;
+}
+
+div.sewer {
+	background-color: #716849;
+}
+div.sewer {
+	color: #d8c775;
+}
+
+div.sherwood_forest {
+	background-color: #023e00;
+}
+div.sherwood_forest {
+	color: #60aa19;
+}
+
+div.siege {
+	background-color: #d9ba86;
+}
+div.siege {
+	color: #552000;
+}
+
+div.skaven_lair {
+	background-color: #000000;
+}
+div.skaven_lair {
+	color: #a6a10f;
+}
+
+div.skaven_swarm {
+	background-color: #000000;
+}
+div.skaven_swarm {
+	color: #00fd00;
+}
+
+div.skill {
+	background-color: #ac9400;
+}
+div.skill {
+	color: #071bba;
+}
+
+div.sorcerers_tower {
+	background-color: #e3b79b;
+}
+div.sorcerers_tower {
+	color: #c91713;
+}
+
+div.space_fortress {
+	background-color: #000000;
+}
+div.space_fortress {
+	color: #1007ae;
+}
+
+div.space_hulk {
+	background-color: #ffffff;
+}
+div.space_hulk {
+	color: #079108;
+}
+
+div.special_item {
+	background-color: #050505;
+}
+div.special_item {
+	color: #f8b544;
+}
+
+div.spell {
+	background-color: #5f9f9f;
+}
+div.spell {
+	color: #ffffff;
+}
+
+div.spell_scroll {
+	background-color: #f6de86;
+}
+div.spell_scroll {
+	color: #9c8693;
+}
+
+div.stalked {
+	background-color: #000000;
+}
+div.stalked {
+	color: #de110e;
+}
+
+div.storm_river {
+	background-color: #007bff;
+}
+div.storm_river {
+	color: #00009c;
+}
+
+div.talisman {
+	background-color: #949700;
+}
+div.talisman {
+	color: #008188;
+}
+
+div.tavern {
+	background-color: #ffffff;
+}
+div.tavern {
+	color: #8a4500;
+}
+
+div.timescape {
+	background-color: #000000;
+}
+div.timescape {
+	color: #f0f550;
+}
+
+div.timescape_purchase {
+	background-color: #f59211;
+}
+div.timescape_purchase {
+	color: #135e1b;
+}
+
+div.toad {
+	background-color: #028e9a;
+}
+div.toad {
+	color: #ffffff;
+}
+
+div.tournament {
+	background-color: #8f2b69;
+}
+div.tournament {
+	color: #cad028;
+}
+
+div.town_street {
+	background-color: #edb23c;
+}
+div.town_street {
+	color: #000000;
+}
+
+div.transformation {
+	background-color: #ffffff;
+}
+div.transformation {
+	color: #ee8484;
+}
+
+div.treasure {
+	background-color: #ff371e;
+}
+div.treasure {
+	color: #ffe357;
+}
+
+div.trolls {
+	background-color: #007100;
+}
+div.trolls {
+	color: #cf9d46;
+}
+
+div.troll_river {
+	background-color: #3e679d;
+}
+div.troll_river {
+	color: #cf9d46;
+}
+
+div.trolls_treasure {
+	background-color: #007100;
+}
+div.trolls_treasure {
+	color: #cf9d46;
+}
+
+div.trophy {
+	background-color: #51a917;
+}
+div.trophy {
+	color: #c10209;
+}
+
+div.twilight_zone {
+	background-color: #000000;
+}
+div.twilight_zone {
+	color: #ffffff;
+}
+
+div.underworld {
+	background-color: #ffffff;
+}
+div.underworld {
+	color: #272efa;
+}
+
+div.vampires_keep {
+	background-color: #000000;
+}
+div.vampires_keep {
+	color: #ff371b;
+}
+
+div.vault {
+	background-color: #000000;
+}
+div.vault {
+	color: #ffff5d;
+}
+
+div.warrant {
+	background-color: #646bd5;
+}
+div.warrant {
+	color: #ffffff;
+}
+
+div.warlocks_maze {
+	background-color: #ffffff;
+}
+div.warlocks_maze {
+	color: #6b193c;
+}
+
+div.warpstone_mutation {
+	background-color: #000000;
+}
+div.warpstone_mutation {
+	color: #03f6fc;
+}
+
+div.warpstone_spell {
+	background-color: #000000;
+}
+div.warpstone_spell {
+	color: #f1ff0b;
+}
+
+div.weapons_of_very_severe_justice {
+	background-color: #000000;
+}
+div.weapons_of_very_severe_justice {
+	color: #ffff3f;
+}
+
+div.wildknights {
+	background-color: #8f2b69;
+}
+div.wildknights {
+	color: #cad028;
+}
+
+/*
+div. {
+	background-color: #;
+}
+div. {
+	color: #;
+}
+*/
